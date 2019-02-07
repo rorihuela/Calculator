@@ -1,3 +1,6 @@
+//Reuben Orihuela
+//CS 480 Mini Project
+//2/7/19
 package test;
 
 import java.awt.BorderLayout;
@@ -19,11 +22,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
-
-import java.io.*;
-import sun.audio.*;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 
 public class Calculator extends JPanel implements ActionListener {
 	
@@ -68,7 +66,7 @@ public class Calculator extends JPanel implements ActionListener {
 		String additionalText = "";
 		for (int a = 0; a < buttonList.size(); a++) {
 			//Clear button functionality
-			if (e.getSource().equals(buttonList.get(12))) {
+			if (e.getSource().equals(buttonList.get(13))) {
 				equation = "";
 				break;
 			}
