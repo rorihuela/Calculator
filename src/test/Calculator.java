@@ -66,7 +66,7 @@ public class Calculator extends JPanel implements ActionListener {
 		String additionalText = "";
 		for (int a = 0; a < buttonList.size(); a++) {
 			//Clear button functionality
-			if (e.getSource().equals(buttonList.get(13))) {
+			if (e.getSource().equals(buttonList.get(12))) {
 				equation = "";
 				break;
 			}
